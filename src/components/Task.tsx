@@ -8,7 +8,7 @@ interface TaskProps {
 
 const Task = ({ icon, text, points }: TaskProps) => {
   return (
-    <div className="p-4 m-4 sm:mx-10 lg:mx-20 w-full h-full max-w-md bg-gradient-to-r from-purple-500 to-pink-700 text-white rounded-lg shadow-lg">
+    <div className="sm:mx-10 lg:mx-20 w-full h-full max-w-md bg-gradient-to-r from-purple-500 to-pink-700 text-white rounded-lg shadow-lg">
       <div className="text-4xl sm:text-5xl flex justify-center py-6 sm:py-10">
         {icon}
       </div>
