@@ -59,7 +59,7 @@ const TaskBox = () => {
       <div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {box.map((task) => (
-                <div key={task.id} onClick={() => handleTaskClick(task)}>
+                <div key={task.id} onClick={() => handleTaskClick(task)} className="mx-auto">
                     <Task  
                         icon={task.icon} 
                         text={task.text} 
